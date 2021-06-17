@@ -1,0 +1,37 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"options": {
+		"shell": {
+			"executable": "cmd",
+			"args": [
+				"/C"
+			]
+		},
+	},
+	"problemMatcher": [],
+	"presentation": {
+		"reveal": "never",
+		"clear": true,
+		"showReuseMessage": false,
+	},
+	"tasks": [
+		{
+			"label": "Install",
+			"type": "shell",
+			"command": "dev-install.bat",
+		},
+		{
+			"label": "Run",
+			"type": "shell",
+			"command": "krita.exe",
+			"dependsOn": ["Install"],
+			"args": [
+				"--new-image",
+				"RGBA,U8,1000,1000",
+				"--nosplash"
+			],
+		},
+	]
+}

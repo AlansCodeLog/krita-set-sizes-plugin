@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Scripts">
+  <Actions category="Scripts">
+    <text>Set Brush Sizes</text>
+
+    <Action name="set_size_1">
+      <icon></icon>
+      <text>Set Size 1</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_2">
+      <icon></icon>
+      <text>Set Size 2</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_3">
+      <icon></icon>
+      <text>Set Size 3</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_4">
+      <icon></icon>
+      <text>Set Size 4</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_5">
+      <icon></icon>
+      <text>Set Size 5</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_6">
+      <icon></icon>
+      <text>Set Size 6</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_7">
+      <icon></icon>
+      <text>Set Size 7</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_8">
+      <icon></icon>
+      <text>Set Size 8</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_9">
+      <icon></icon>
+      <text>Set Size 9</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+    <Action name="set_size_10">
+      <icon></icon>
+      <text>Set Size 10</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+  </Actions>
+</ActionCollection>

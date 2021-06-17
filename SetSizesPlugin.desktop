@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=SetSizesPlugin
+X-Python-2-Compatible=false
+X-Krita-Manual=manual.html
+Name=Set Sizes Plugin
+Comment=Provides shortcuts for quickly setting brush sizes.
