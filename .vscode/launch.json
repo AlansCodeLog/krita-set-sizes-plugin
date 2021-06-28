@@ -1,0 +1,42 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "(gdb) Launch",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${env:DEV_CLONES_DIR}/kritadev/i/bin/krita.exe",
+			"cwd": "${env:DEV_CLONES_DIR}/kritadev/i/bin/",
+			"args": [
+				"--new-image",
+				"RGBA,U8,1000,1000",
+				"--nosplash"
+			],
+			"stopAtEntry": false,
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"miDebuggerPath": "${env:DEV_TOOLS}/mingw64/bin/gdb.exe",
+			"miDebuggerArgs": "--silent",
+			"setupCommands": [
+				{
+					"description": "Enable pretty-printing for gdb",
+					"text": "-enable-pretty-printing",
+					"ignoreFailures": true
+				},
+				{
+					"description": "Reduce gdb verbosity",
+					"text": "set print thread-events off",
+					"ignoreFailures": true
+				}
+			],
+			"logging": {
+				"moduleLoad": false,
+				"engineLogging": false,
+				"trace": false,
+				"exceptions": false,
+				"programOutput": true,
+				"traceResponse": false,
+			}
+		}
+	]
+}

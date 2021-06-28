@@ -1,0 +1,6 @@
+{
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": false
+	},
+}

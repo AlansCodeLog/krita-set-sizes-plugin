@@ -1,4 +1,5 @@
 xcopy actions %APPDATA%\krita\actions /Y
 
-xcopy SetSizesPlugin.desktop %APPDATA%\krita\pykrita /Y
-xcopy SetSizesPlugin %APPDATA%\krita\pykrita\SetSizesPlugin /Y
+del %APPDATA%\krita\pykrita\TenBrushSizesPlugin /Q
+xcopy TenBrushSizesPlugin.desktop %APPDATA%\krita\pykrita /Y
+xcopy TenBrushSizesPlugin %APPDATA%\krita\pykrita\TenBrushSizesPlugin\ /Y

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ActionCollection version="2" name="Scripts">
   <Actions category="Scripts">
-    <text>Set Brush Sizes</text>
+    <text>Ten Brush Sizes</text>
 
-    <Action name="set_size_1">
+    <Action name="set_brush_size_1">
       <icon></icon>
-      <text>Set Size 1</text>
+      <text>Set Brush Size 1</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -13,10 +13,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_2">
+    <Action name="set_brush_size_2">
       <icon></icon>
-      <text>Set Size 2</text>
+      <text>Set Brush Size 2</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -24,10 +25,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_3">
+    <Action name="set_brush_size_3">
       <icon></icon>
-      <text>Set Size 3</text>
+      <text>Set Brush Size 3</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -35,10 +37,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_4">
+    <Action name="set_brush_size_4">
       <icon></icon>
-      <text>Set Size 4</text>
+      <text>Set Brush Size 4</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -46,10 +49,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_5">
+    <Action name="set_brush_size_5">
       <icon></icon>
-      <text>Set Size 5</text>
+      <text>Set Brush Size 5</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -57,10 +61,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_6">
+    <Action name="set_brush_size_6">
       <icon></icon>
-      <text>Set Size 6</text>
+      <text>Set Brush Size 6</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -68,10 +73,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_7">
+    <Action name="set_brush_size_7">
       <icon></icon>
-      <text>Set Size 7</text>
+      <text>Set Brush Size 7</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -79,10 +85,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_8">
+    <Action name="set_brush_size_8">
       <icon></icon>
-      <text>Set Size 8</text>
+      <text>Set Brush Size 8</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -90,10 +97,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_9">
+    <Action name="set_brush_size_9">
       <icon></icon>
-      <text>Set Size 9</text>
+      <text>Set Brush Size 9</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -101,10 +109,11 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
-    <Action name="set_size_10">
+    <Action name="set_brush_size_10">
       <icon></icon>
-      <text>Set Size 10</text>
+      <text>Set Brush Size 10</text>
       <whatsThis></whatsThis>
       <toolTip></toolTip>
       <iconText></iconText>
@@ -112,6 +121,19 @@
       <activationConditions>0</activationConditions>
       <isCheckable>false</isCheckable>
       <statusTip></statusTip>
+      <shortcut></shortcut>
+    </Action>
+    <Action name="ten_brush_sizes">
+      <icon></icon>
+      <text>Ten Brush Sizes</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+      <shortcut></shortcut>
     </Action>
   </Actions>
 </ActionCollection>

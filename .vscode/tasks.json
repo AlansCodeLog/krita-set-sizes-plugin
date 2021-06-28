@@ -33,5 +33,21 @@
 				"--nosplash"
 			],
 		},
+		{
+			"label": "Open Settings",
+			"type": "shell",
+			"command": "code-insiders",
+			"args": [
+				"%LOCALAPPDATA%/kritarc"
+			],
+		},
+		{
+			"label": "Open Krita Log",
+			"type": "shell",
+			"command": "code-insiders",
+			"args": [
+				"%LOCALAPPDATA%/krita.log"
+			],
+		},
 	]
 }
