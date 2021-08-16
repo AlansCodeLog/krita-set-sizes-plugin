@@ -56,4 +56,4 @@ class TenBrushSizesExtension(krita.Extension):
         i = self.sender().i
         win = Krita.instance().activeWindow()
         view = win.activeView()
-        view.setBrushSize(self.config["sizes"][i])
+        view.setBrushSize(self.config["sizes"][i - 1])
