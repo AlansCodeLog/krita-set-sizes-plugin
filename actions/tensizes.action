@@ -2,8 +2,31 @@
 <ActionCollection version="2" name="Scripts">
   <Actions category="Scripts">
     <text>Ten Brush Sizes</text>
-
-    <Action name="set_brush_size_1">
+    <Action name="tbs_dec_brush_size">
+      <icon></icon>
+      <text>Decrease Brush Size (Custom)</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+      <shortcut></shortcut>
+    </Action>
+    <Action name="tbs_inc_brush_size">
+      <icon></icon>
+      <text>Increase Brush Size (Custom)</text>
+      <whatsThis></whatsThis>
+      <toolTip></toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+      <shortcut></shortcut>
+    </Action>
+    <Action name="tbs_set_brush_size_1">
       <icon></icon>
       <text>Set Brush Size 1</text>
       <whatsThis></whatsThis>
@@ -15,7 +38,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_2">
+    <Action name="tbs_set_brush_size_2">
       <icon></icon>
       <text>Set Brush Size 2</text>
       <whatsThis></whatsThis>
@@ -27,7 +50,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_3">
+    <Action name="tbs_set_brush_size_3">
       <icon></icon>
       <text>Set Brush Size 3</text>
       <whatsThis></whatsThis>
@@ -39,7 +62,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_4">
+    <Action name="tbs_set_brush_size_4">
       <icon></icon>
       <text>Set Brush Size 4</text>
       <whatsThis></whatsThis>
@@ -51,7 +74,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_5">
+    <Action name="tbs_set_brush_size_5">
       <icon></icon>
       <text>Set Brush Size 5</text>
       <whatsThis></whatsThis>
@@ -63,7 +86,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_6">
+    <Action name="tbs_set_brush_size_6">
       <icon></icon>
       <text>Set Brush Size 6</text>
       <whatsThis></whatsThis>
@@ -75,7 +98,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_7">
+    <Action name="tbs_set_brush_size_7">
       <icon></icon>
       <text>Set Brush Size 7</text>
       <whatsThis></whatsThis>
@@ -87,7 +110,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_8">
+    <Action name="tbs_set_brush_size_8">
       <icon></icon>
       <text>Set Brush Size 8</text>
       <whatsThis></whatsThis>
@@ -99,7 +122,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_9">
+    <Action name="tbs_set_brush_size_9">
       <icon></icon>
       <text>Set Brush Size 9</text>
       <whatsThis></whatsThis>
@@ -111,7 +134,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="set_brush_size_10">
+    <Action name="tbs_set_brush_size_10">
       <icon></icon>
       <text>Set Brush Size 10</text>
       <whatsThis></whatsThis>
@@ -123,7 +146,7 @@
       <statusTip></statusTip>
       <shortcut></shortcut>
     </Action>
-    <Action name="ten_brush_sizes">
+    <Action name="tbs_ten_brush_sizes">
       <icon></icon>
       <text>Ten Brush Sizes</text>
       <whatsThis></whatsThis>

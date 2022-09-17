@@ -23,7 +23,7 @@ class TenBrushSizesExtension(krita.Extension):
         self.readSettings()
 
     def createActions(self, window):
-        action = window.createAction("ten_brush_sizes", i18n("Ten Brush Sizes"))
+        action = window.createAction("tbs_ten_brush_sizes", i18n("Ten Brush Sizes"))
         action.setToolTip(i18n("Assign ten brush sizes to ten shortcuts."))
         action.triggered.connect(self.initialize)
         self._loadActions(window)
@@ -47,13 +47,46 @@ class TenBrushSizesExtension(krita.Extension):
 
     def _loadActions(self, window):
         for i in range(1, 11):
-            action = window.createAction("set_brush_size_"+ str(i), "Set Brush Size " + str(i), "")
+            action = window.createAction("tbs_set_brush_size_"+ str(i), "Set Brush Size " + str(i), "")
             action.triggered.connect(self._setSize)
             action.i = i
             self.actions.append(action)
+
+        action_inc = window.createAction("tbs_dec_brush_size", "Decrease Brush Size (Custom)", "")
+        action_inc.triggered.connect(self._nextSize)
+        action_inc.dir = "decrease"
+        self.actions.append(action_inc)
+
+        action_dec = window.createAction("tbs_inc_brush_size", "Increase Brush Size (Custom)", "")
+        action_dec.triggered.connect(self._nextSize)
+        action_dec.dir = "increase"
+        self.actions.append(action_dec)
 
     def _setSize(self):
         i = self.sender().i
         win = Krita.instance().activeWindow()
         view = win.activeView()
         view.setBrushSize(self.config["sizes"][i - 1])
+
+    def _nextSize(self):
+        dir = self.sender().dir
+        win = Krita.instance().activeWindow()
+        view = win.activeView()
+        current = view.brushSize()
+        newSize = current
+        if dir == "increase":
+            for i, size in enumerate(self.config["sizes"]):
+                if current >= size:
+                    if i + 1 <= len(self.config["sizes"]) - 1:
+                        newSize = self.config["sizes"][i + 1]
+                    else:
+                        return
+        else:
+            for i, size in reversed(list(enumerate(self.config["sizes"]))):
+                if current <= size:
+                    if i - 1 >= 0:
+                        newSize = self.config["sizes"][i - 1]
+                    else:
+                        return
+
+        view.setBrushSize(newSize)

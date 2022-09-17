@@ -1,6 +1,6 @@
 # Ten Brush Sizes
 
-Krita plugin that provides ten shortcuts for setting ten configurable brush sizes.
+Krita plugin that provides ten shortcuts for setting ten configurable brush sizes and/or increasing/decreasing brush size along the set sizes.
 
 # Install
 
@@ -10,6 +10,6 @@ The dev-install script is for me for development, but it should also work if you
 
 # Usage
 
-Go to Settings => Configure Krita => Keyboard Shortcuts => Search "Set Brush Size" and set to whatever shortcuts you want. Personally I use keys 1 through 0.
+Go to Settings => Configure Krita => Keyboard Shortcuts => Scroll down to Scripts => Ten Brush Sizes.
 
 To configure the sizes, go to Tools => Scripts => Ten Brush Sizes
