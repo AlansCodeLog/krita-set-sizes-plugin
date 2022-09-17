@@ -3,12 +3,14 @@
 	// for the documentation about the tasks.json format
 	"version": "2.0.0",
 	"options": {
-		"shell": {
-			"executable": "cmd",
-			"args": [
-				"/C"
-			]
-		},
+		"windows": {
+			"shell": {
+				"executable": "cmd",
+				"args": [
+					"/C"
+				]
+			},
+		}
 	},
 	"problemMatcher": [],
 	"presentation": {
@@ -20,12 +22,22 @@
 		{
 			"label": "Install",
 			"type": "shell",
-			"command": "dev-install.bat",
+			"windows": {
+				"command": "dev-install.bat",
+			},
+			"linux":{
+				"command": "./dev-install.bash",
+			}
 		},
 		{
 			"label": "Run",
 			"type": "shell",
-			"command": "krita.exe",
+			"windows": {
+				"command": "krita.exe",
+			},
+			"linux":{
+				"command": "krita",
+			},
 			"dependsOn": ["Install"],
 			"args": [
 				"--new-image",
@@ -37,17 +49,31 @@
 			"label": "Open Settings",
 			"type": "shell",
 			"command": "code-insiders",
-			"args": [
-				"%LOCALAPPDATA%/kritarc"
-			],
+			"windows": {
+				"args": [
+					"%LOCALAPPDATA%/kritarc"
+				],
+			},
+			"linux": {
+				"args": [
+					"~/.local/share/kritarc"
+				],
+			},
 		},
 		{
 			"label": "Open Krita Log",
 			"type": "shell",
 			"command": "code-insiders",
-			"args": [
-				"%LOCALAPPDATA%/krita.log"
-			],
+			"windows": {
+				"args": [
+					"%LOCALAPPDATA%/krita.log"
+				],
+			},
+			"linux": {
+				"args": [
+					"~/.local/share/krita.log"
+				],
+			},
 		},
 	]
 }
